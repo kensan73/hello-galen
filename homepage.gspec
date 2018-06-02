@@ -3,4 +3,4 @@
 
 = Main section =
     p:
-        css font-family is "Calisto MT, Georgia, serif"
+        css line-height is "19.2px"

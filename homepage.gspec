@@ -1,6 +1,6 @@
 @objects
-    header              id      header
+    body              css      body
 
 = Main section =
-    header:
-        height 40px
+    body:
+        css font-size is "16px"

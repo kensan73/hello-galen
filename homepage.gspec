@@ -5,7 +5,7 @@
 
 = Main section =
     body:
-        css font-size is "16px"
+        css font-size is "32px"
     h1:
         css font-size is "32px"
     h2:

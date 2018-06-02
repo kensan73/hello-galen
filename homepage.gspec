@@ -1,6 +1,6 @@
 @objects
-    h1          css     h1
+    p          css     p
 
 = Main section =
-    h1:
-        css font-weight is "700"
+    p:
+        css font-family is "Calisto MT, Georgia, serif"

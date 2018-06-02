@@ -4,9 +4,5 @@
     h2              css      h2
 
 = Main section =
-    body:
-        css font-size is "32px"
     h1:
         css font-size is "32px"
-    h2:
-        css font-size is "24px"

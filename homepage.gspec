@@ -4,6 +4,6 @@
 
 = Main section =
     h1:
-        css letter-spacing is "1.2em"
+        css letter-spacing is "19.2px"
     p:
-        css letter-spacing is "-0.2em"
+        css letter-spacing is "-3.2px"

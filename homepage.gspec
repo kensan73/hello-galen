@@ -1,8 +1,13 @@
 @objects
     body              css      body
-    h1              css      h1
-    h2              css      h2
+    p1              css      p:first-child
+    p2              css      p:last-child
 
 = Main section =
-    h1:
-        css font-size is "32px"
+    body:
+        contains p1
+        contains p2
+
+    p1:
+        css float is "left"
+        css width is "200px"

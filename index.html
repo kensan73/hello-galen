@@ -11,12 +11,20 @@
       font-size: 16px;
       font-size: 1em;
     }
+
+    p:first-child {
+      background-color: blue;
+      color: #ffffff;
+      float: left;
+      width: 200px;
+    }
+
   </style>
 </head>
 <body style="font-size: 2em;">
 <div id="header">
-  <!-- As-is, paragraphs will follow each other vertically.
-    Float the 1st paragraph so that the second flow around it.  Give it a width of 200px. -->
+  <!-- As-is, the 2nd para butts up against the first floated paragraph.
+    Give the 1st paragraph some room away from the 2nd - say 20px - but do not change the size of the inner 1st paragraph box. -->
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur

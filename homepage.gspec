@@ -1,16 +1,15 @@
 @objects
     body              css      body
     p1              css      p:first-child
-    p2              css      p:last-child
+    p3              css      p:last-child
 
 = Main section =
-    body:
-        contains p1
-        contains p2
-
     p1:
         width 40 to 45 % of screen/width
         css border-bottom-color is "rgb(0, 0, 0)"
         css border-bottom-style is "solid"
         css border-bottom-width is "1px"
         css float is "right"
+
+    p3:
+        css clear is "both"

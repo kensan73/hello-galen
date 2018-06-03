@@ -5,7 +5,6 @@
 
 = Main section =
     body:
-        contains p1
         contains p2
 
     p1:

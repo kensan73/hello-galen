@@ -8,9 +8,7 @@
         contains p1
         contains p2
 
-    p1:
-        css float is "left"
-        css width is "200px"
-        css margin-right is "20px"
-        css margin-bottom is "20px"
-        css padding is "20px"
+    p2:
+        css position is "absolute"
+        css top is "20px"
+        css left is "10px"

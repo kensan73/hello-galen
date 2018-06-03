@@ -12,26 +12,21 @@
       font-size: 1em;
     }
 
-    p:first-child {
+    p:last-child {
       background-color: blue;
       color: #ffffff;
-      float: left;
-      width: 200px;
-      margin-right: 20px;
-      margin-bottom: 20px;
-      padding: 20px;
+      width: 170px;
+      border-radius: 5px;
+      text-align: center;
     }
 
   </style>
 </head>
 <body style="font-size: 2em;">
 <div id="header">
-  <!-- As-is, the text within p1 butts up against the border, push text away from the border.
-    (Don't change the size of the box within the border.) -->
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <!-- As-is, first paragraph will be followed by 2nd.
+    position the second paragraph absolutely so it is hovering over the first.
+     Say 10px from the left and 20px from the top. -->
   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
     aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
     enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -48,6 +43,6 @@
     nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
     eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
     fugiat quo voluptas nulla pariatur?</p>
-</div>
+  <p>Open in app</p></div>
 </body>
 </html>

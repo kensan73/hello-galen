@@ -9,6 +9,7 @@
     }
 
     #wrapper {
+      position: relative;
       background-color: white;
       border-radius: 10px;
       margin: 20px;
@@ -30,7 +31,10 @@
 <body style="font-size: 2em;">
 <div id="header">
   <!-- As-is, the second paragraph floats absolutely over the 1st.
-    Make the second float relative to the first. -->
+    Make the second float relative to the first.
+    By changing the wrapper parent, the 2nd paragraph will now position relative
+    to the first parent that has position.  Namely the wrapper div.
+     -->
   <div id="wrapper"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
     aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
     enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui

@@ -21,17 +21,12 @@
       float: right;
     }
 
-    p:last-child {
-      background-color: #000000;
-      color: #ffffff;
-      clear: both;
-    }
   </style>
 </head>
 <body style="font-size: 2em;">
 <div id="header">
-  <!-- As-is, the aside floats right of paragraph 2. but overlaps the footer.
-      Have it float right.
+  <!-- As-is, the aside spills outside the wrapper.
+    Adjust the wrapper using the clearfix method to auto fix the height.
      -->
   <div id="wrapper">
     <p>An aside perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
@@ -39,7 +34,6 @@
       enim ipsam</p>
     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
       aperiam, eaque ipsa quae ab illo inventore veritatis et</p>
-    <p>Copyright blah blah blah footer</p>
   </div>
 </div>
 </body>

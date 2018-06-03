@@ -10,6 +10,3 @@
         css border-bottom-style is "solid"
         css border-bottom-width is "1px"
         css float is "right"
-
-    p3:
-        css clear is "both"

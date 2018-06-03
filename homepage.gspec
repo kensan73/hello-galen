@@ -9,6 +9,6 @@
         contains p2
 
     p2:
-        css position is "absolute"
+        css position is "relative"
         css top is "20px"
         css left is "10px"

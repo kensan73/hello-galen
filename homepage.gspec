@@ -8,7 +8,8 @@
         contains p1
         contains p2
 
-    p2:
-        css position is "relative"
-        css top is "20px"
-        css left is "10px"
+    p1:
+        width 40 to 45 % of screen/width
+        css border-bottom-color is "rgb(0, 0, 0)"
+        css border-bottom-style is "solid"
+        css border-bottom-width is "1px"

@@ -13,4 +13,4 @@
         css border-bottom-color is "rgb(0, 0, 0)"
         css border-bottom-style is "solid"
         css border-bottom-width is "1px"
-        css float is "left"
+        css float is "right"

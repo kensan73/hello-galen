@@ -2,8 +2,15 @@
     body        css     body
     p          css     p
     wrapper     css     .wrapper
+    content     css     .content
 
 = Main section =
+    content:
+        css float is "left"
+        css width is "600px"
+        css background-color is "rgb(255, 255, 255, 0.5)"
+        css margin-bottom is "40px"
+
     wrapper:
         css width is "980px"
         css padding-top is "20px"
@@ -11,9 +18,9 @@
         css padding-bottom is "20px"
         css padding-left is "20px"
         css margin-top is "0px"
-        css margin-right is "auto"
-        css margin-bottom is "0"
-        css margin-left is "auto"
+        #css margin-right is "auto"
+        #css margin-bottom is "0"
+        #css margin-left is "auto"
 
     body:
         css background-image is "url(\"http://127.0.0.1:8080/sandpaper.png\")"

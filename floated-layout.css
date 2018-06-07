@@ -1,9 +1,8 @@
 /* TODO:
-    Add the clr reusable style.
-    Set .wrapper
-        width 980px
-        padding 20px
-        margin left and right to auto, top and bottom 0
+    float the main content left,
+    give it a width of 600px
+    background color to 255 255 255 opacity 0.5
+    margin-bottom 40px
  */
 
 html {

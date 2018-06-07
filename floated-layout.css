@@ -1,4 +1,8 @@
-/* TODO: make root element box-sizing border-box, and make inheriting it work correctly. */
+/* TODO: add a background image.
+    make the background have sandpaper.png.
+    add a default background color to fallback to of #cccccc
+    make it fixed to the page (so when user scrolls the background won't)
+ */
 
 html {
     font-size: 1em;

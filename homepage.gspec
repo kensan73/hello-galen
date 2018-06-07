@@ -1,6 +1,8 @@
 @objects
+    body        css     body
     p          css     p
 
 = Main section =
-    p:
-        css line-height is "19.2px"
+    body:
+        css background is "sandpaper.png #cccccc"
+        css background-attachment is "fixed"

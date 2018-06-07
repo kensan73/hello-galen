@@ -1,6 +1,6 @@
 /* TODO:
-    footer (mainfooter) is under the aside
-    Have it clear both content and aside
+    move padding 20px from .content to each .content section
+    add a border-bottom of 4px solid rgba(100,100,100,0.3)
  */
 
 html {

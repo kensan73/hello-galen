@@ -6,8 +6,11 @@
 = Main section =
     wrapper:
         css width is "980px"
-        css padding is "20px"
-        css margin-top is "0"
+        css padding-top is "20px"
+        css padding-right is "20px"
+        css padding-bottom is "20px"
+        css padding-left is "20px"
+        css margin-top is "0px"
         css margin-right is "auto"
         css margin-bottom is "0"
         css margin-left is "auto"

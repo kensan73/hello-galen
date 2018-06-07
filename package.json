@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "http-server .",
-    "test": "galen check homepage.gspec --url http://127.0.0.1:8080 --size 640x480",
-    "testWithReport": "galen check homepage.gspec --url http://127.0.0.1:8080 --size 640x480 --htmlreport ./report && open report/report.html"
+    "test": "galen check homepage.gspec --url http://127.0.0.1:8080 --size 2560x1600",
+    "testWithReport": "galen check homepage.gspec --url http://127.0.0.1:8080 --size 2560x1600 --htmlreport ./report && open report/report.html"
   },
   "keywords": [],
   "author": "",

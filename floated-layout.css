@@ -61,7 +61,9 @@ a:hover {
 }
 
 .wrapper {
-
+    width: 980px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 .mainheader {

@@ -8,7 +8,7 @@
     content:
         css float is "left"
         css width is "600px"
-        css background-color is "rgb(255, 255, 255, 0.5)"
+        css background-color is "rgba(255, 255, 255, 0.5)"
         css margin-bottom is "40px"
 
     wrapper:

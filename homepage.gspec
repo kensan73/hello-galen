@@ -4,5 +4,6 @@
 
 = Main section =
     body:
-        css background is "sandpaper.png #cccccc"
+        css background-image is "url(\"http://127.0.0.1:8080/sandpaper.png\")"
+        css background-color is "rgb(204, 204, 204)"
         css background-attachment is "fixed"

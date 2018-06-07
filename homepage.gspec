@@ -4,20 +4,24 @@
     wrapper     css     .wrapper
     content     css     .content
     aside       css     .sidebar
+    mainfooter  css     .mainfooter
 
 = Main section =
+    mainfooter:
+        css clear is "both"
+
     aside:
         css float is "right"
         css width is "300px"
         css background-color is "rgba(255, 255, 255, 0.5)"
-        css padding is "20px"
+        #css padding is "20px"
 
     content:
         css float is "left"
         css width is "600px"
         css background-color is "rgba(255, 255, 255, 0.5)"
         css margin-bottom is "40px"
-        css padding is "20px"
+        #css padding is "20px"
 
     wrapper:
         css width is "980px"

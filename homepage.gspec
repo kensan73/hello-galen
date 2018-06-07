@@ -1,8 +1,17 @@
 @objects
     body        css     body
     p          css     p
+    wrapper     css     .wrapper
 
 = Main section =
+    wrapper:
+        css width is "980px"
+        css padding is "20px"
+        css margin-top is "0"
+        css margin-right is "auto"
+        css margin-bottom is "0"
+        css margin-left is "auto"
+
     body:
         css background-image is "url(\"http://127.0.0.1:8080/sandpaper.png\")"
         css background-color is "rgb(204, 204, 204)"
